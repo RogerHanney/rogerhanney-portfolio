@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Linkedin, MessageCircle, FileText, ChevronRight, ExternalLink, CheckCircle, Star } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react'; // <<< 1. ADD THIS LINE
 
 // Import Data and Components
 import { portfolioData } from './data';
@@ -298,6 +299,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <SpeedInsights /> {/* <<< 2. ADD THIS LINE */}
     </div>
   );
 }
