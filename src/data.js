@@ -18,14 +18,13 @@ export const portfolioData = {
     tagline: "AI Strategy • Human Capacity",
     title_part1: "Solve Your Bottlenecks.",
     title_part2: "Empower Your People.",
-    description: "You have a strategy. Your team has workflows. They don't connect. I spent 15 years scaling a global brand from startup to over a million units annually—B2B, B2C, wholesale to front line—culminating in a senior role reporting directly to the divisional CEO of a $1.6B group. At scale, I learned the real bottleneck isn't systems. It's adoption. So I built custom AI tools that teams actually use every day—trained in your brand's voice, designed around what your customer needs, then integrated through your marketing, sales, and operations to deliver it. Not automation. Augmentation. Your people, freed to do their best work.",
+    description: "You have a strategy. Your teams have workflows. They are disconnected. Let's fix that. I spent 15 years scaling a global brand from startup to over a million units annually, reporting directly to the divisional CEO within a $1.6B group. My experience spans the entire commercial ecosystem: GTM, B2B, B2C, and B2E - from brand building, data management, marketing and sales leadership to partnerships, forecasting, and the retail front line. Rapid growth always reveals missed opportunity. But as part of an enterprise tiger team, I learned the real bottleneck isn't technology - it's adoption. So I built custom AI tools that teams and leaders actually used. You don't need a wishlist. You need your people free to do their best work. Let's find your bottleneck.",
     featuredAnalysis: {
       title: "Moving Fast Without Breaking Things: OpenAI's 5-Year Global Strategy",
       date: "August 2025",
       description: "A comprehensive 30-page strategic road map detailing OpenAI's pathway from market leader to essential global infrastructure."
     }
   },
-
   insights: [
     {
       title: "The OpenAI Paradox: A Mid-October Strategic Brief",
@@ -34,10 +33,9 @@ export const portfolioData = {
       tags: ["AI Strategy", "Market Analysis", "Competitive Landscape"],
       excerpt: "A one-page intelligence brief analyzing the core tension at the heart of the AI industry's leader: the race to convert 800M weekly users into enterprise revenue amidst escalating infrastructure costs and intense competitive pressure. This is a snapshot of the state of play in October 2025.",
       featured: true,
-      pdfPath: "/pdfs/openai-paradox-onepager.png"
+      pdfPath: "/pdfs/openai-paradox-onepager.png" // Corrected filename
     }
   ],
-
   strategicWork: [
     {
       title: "Moving Fast Without Breaking Things: OpenAI's 5-Year Global Strategy",
@@ -48,6 +46,14 @@ export const portfolioData = {
       pdfPath: "/pdfs/Considering OPENAI 5yr Global Strategy August 2025.pdf"
     },
     {
+      title: "ProfessionalCo: An Internal HR & Talent Management Platform Review",
+      date: "August 2024",
+      description: "A 14-page strategic proposal for a 45,000-employee multinational, outlining the business case, financial analysis, and implementation road map for a custom-built talent management platform.",
+      pages: "14 pages",
+      type: "Talent Strategy",
+      pdfPath: "/pdfs/professionalco-hr-platform-review.pdf"
+    },
+    {
       title: "AI Twinning and Uncontested Market Space",
       date: "July 2024",
       description: "A 14-page business model analysis proposing the use of 'AI Twinning' to scale professional services and create new, uncontested market space for consulting firms.",
@@ -56,16 +62,24 @@ export const portfolioData = {
       pdfPath: "/pdfs/Deloitte - AI Twinning 2024 Hanney.pdf"
     }
   ],
-
   artefacts: [
     {
       title: "The OpenAI Paradox One-Pager",
       description: "A one-page strategic brief analyzing the tension between OpenAI's 800M weekly users and its race for enterprise revenue.",
       date: "October 2025",
       source: "Market Analysis",
-      thumbnailPath: "/pdfs/openai-paradox-onepager.png",
-      filePath: "/pdfs/openai-paradox-onepager.png",
-      sourcePath: "/pdfs/openai-paradox-onepager.png"
+      thumbnailPath: "/pdfs/openai-paradox-onepager.png", // Corrected filename
+      filePath: "/pdfs/openai-paradox-onepager.png",      // Corrected filename
+      sourcePath: "/pdfs/openai-paradox-onepager.png"     // Corrected filename
+    },
+    {
+      title: "ProfessionalCo: Grouped Market Analysis",
+      description: "A framework for assessing APAC markets based on their climate for knowledge-based services and their SaaS regulatory regimes.",
+      date: "August 2024",
+      source: "ProfessionalCo HR Review",
+      thumbnailPath: "/pdfs/professionalco-market-analysis.jpg",
+      filePath: "/pdfs/professionalco-market-analysis.jpg",
+      sourcePath: "/pdfs/professionalco-hr-platform-review.pdf"
     },
     {
       title: "AI Competitive Matrix",
@@ -75,6 +89,15 @@ export const portfolioData = {
       thumbnailPath: "/pdfs/AI-Segment-Reach-Trust-Matrix-August-2025.png",
       filePath: "/pdfs/AI-Segment-Reach-Trust-Matrix-August-2025.png",
       sourcePath: "/pdfs/Considering OPENAI 5yr Global Strategy August 2025.pdf"
+    },
+    {
+      title: "ProfessionalCo: Financial Simulation",
+      description: "A 10-year financial analysis comparing the costs, benefits, and NPV of an internally developed platform vs. an off-the-shelf solution.",
+      date: "August 2024",
+      source: "ProfessionalCo HR Review",
+      thumbnailPath: "/pdfs/professionalco-financial-analysis.jpg",
+      filePath: "/pdfs/professionalco-financial-analysis.jpg",
+      sourcePath: "/pdfs/professionalco-hr-platform-review.pdf"
     },
     {
       title: "VRIO Analysis Framework",
@@ -95,13 +118,13 @@ export const portfolioData = {
       sourcePath: "/pdfs/Considering OPENAI 5yr Global Strategy August 2025.pdf"
     },
     {
-      title: "Concise 7-S Framework",
-      description: "A holistic diagnostic tool summarizing OpenAI's organizational alignment across Strategy, Structure, Systems, and other key pillars.",
-      date: "August 2025",
-      source: "OpenAI 5-Year Global Strategy",
-      thumbnailPath: "/pdfs/OpenAI-7S-August-2025.png",
-      filePath: "/pdfs/OpenAI-7S-August-2025.png",
-      sourcePath: "/pdfs/Considering OPENAI 5yr Global Strategy August 2025.pdf"
+      title: "ProfessionalCo: McKinsey 7S Snapshot",
+      description: "A concise diagnostic of a multinational's organizational alignment, identifying key friction points and opportunities for strategic change.",
+      date: "August 2024",
+      source: "ProfessionalCo HR Review",
+      thumbnailPath: "/pdfs/professionalco-7s-snapshot.jpg",
+      filePath: "/pdfs/professionalco-7s-snapshot.jpg",
+      sourcePath: "/pdfs/professionalco-hr-platform-review.pdf"
     }
   ],
 
